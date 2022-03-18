@@ -1,0 +1,31 @@
+{
+    "name":"AA Blocker",
+    "version": "1.0.0",
+    "description": "adblock for thai anime website",
+    "manifest_version": 3,
+    "author": "LazyDev",
+    "action": {
+        "default_title" : "AA Blocker"
+    },
+    "icons":{
+        "16": "assets/icon.png",
+        "48": "assets/icon.png",
+        "128": "assets/icon.png"
+    },
+    "content_scripts":[
+        {
+            "matches":[
+                "https://www.anime-master.com/*",
+                "https://anime-master.net/*",
+                "https://www.anime-sugoi.com/*",
+                "https://anime-fast.online/*",
+                "https://animekimi.com/*",
+                "https://anime-kimuchi.com/*",
+                "https://anime-titan.com/*",
+                "https://anime-168.com/*",
+                "https://www.animeyoko.com/*"
+            ],
+            "js": ["assets/adblock.js"]
+        }
+    ]
+}
