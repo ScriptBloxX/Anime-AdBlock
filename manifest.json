@@ -1,11 +1,11 @@
 {
-    "name":"AA Blocker",
+    "name":"AA Block",
     "version": "1.0.0",
     "description": "adblock for thai anime website",
     "manifest_version": 3,
     "author": "LazyDev",
     "action": {
-        "default_title" : "AA Blocker"
+        "default_title" : "AA Block"
     },
     "icons":{
         "16": "assets/icon.png",
